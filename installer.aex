@@ -12,7 +12,7 @@ gem install lolcat
 echo "Configurando setoolkit..."
 sleep 2
 
-sed -i 's/APACHE_SERVER=ON/APACHE_SERVER=OFF/g' /data/data/com.termux/files/usr/etc/setoolkit/set.config 
+#sed -i 's/APACHE_SERVER=ON/APACHE_SERVER=OFF/g' /data/data/com.termux/files/usr/etc/setoolkit/set.config 
 
 sleep 1
 #sed -i 's|DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"|DocumentRoot "/data/data/com.termux/files/usr/var/www/html"|g' $PREFIX/etc/apache2/httpd.conf
